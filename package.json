@@ -1,0 +1,14 @@
+{
+  "name": "restaurent",
+  "version": "1.0.0",
+  "description": "food",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "food"
+  ],
+  "author": "bilal",
+  "license": "ISC"
+}

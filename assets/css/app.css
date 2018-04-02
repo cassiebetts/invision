@@ -1,0 +1,568 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i";
+@font-face {
+  src: url("../fonts/hussarwoodtypeultra.otf");
+  font-family: Hussar;
+}
+/* line 5, ../sass/app.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background: #f6f6f6;
+}
+
+/* line 13, ../sass/app.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* line 17, ../sass/app.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 24, ../sass/app.scss */
+.navbar-custom {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #989a9a;
+  background: #FFF;
+  padding: 24px 0;
+  margin: 0;
+}
+/* line 34, ../sass/app.scss */
+.navbar-custom .navbar-nav li a {
+  color: #777;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/* line 44, ../sass/app.scss */
+.Search-Wrapper {
+  background: radial-gradient(#edf8fa, #b0d1d4);
+  min-height: 600px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 53, ../sass/app.scss */
+.Search_title {
+  font-size: 70px;
+  color: #dec300;
+  font-family: Hussar;
+  margin-bottom: 50px;
+}
+/* line 59, ../sass/app.scss */
+.Search_title .bold {
+  color: #000;
+}
+/* line 66, ../sass/app.scss */
+.Search_title .thin {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #4c4c4c;
+}
+/* line 72, ../sass/app.scss */
+.Search_title .yellow-text {
+  font-size: 30px;
+  color: #dec300;
+}
+
+/* line 79, ../sass/app.scss */
+.Search-des {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  letter-spacing: 1.7px;
+  margin-bottom: 20px;
+}
+
+/* line 87, ../sass/app.scss */
+.Search {
+  position: relative;
+}
+/* line 89, ../sass/app.scss */
+.Search input {
+  border: 0;
+  width: 100%;
+  padding: 10px 15px;
+  height: 49px;
+  border-radius: 3px;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  outline: none;
+}
+/* line 100, ../sass/app.scss */
+.Search .email-btn {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  background: #dec300;
+  color: #FFF;
+  height: 49px;
+  width: 60px;
+  border: 0;
+  border-radius: 4px;
+}
+/* line 110, ../sass/app.scss */
+.Search .email-btn i {
+  font-size: 30px;
+}
+
+/* line 118, ../sass/app.scss */
+.section-title {
+  margin: 30px 0 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color: #4a4a4a;
+  font-weight: 600;
+  float: left;
+  width: 100%;
+}
+/* line 127, ../sass/app.scss */
+.section-title.font18 {
+  font-size: 18px !important;
+}
+
+/* line 134, ../sass/app.scss */
+.Recent-pro-box {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+/* line 141, ../sass/app.scss */
+.Recent-pro-box .visiter {
+  background: #eeeeee;
+  padding: 15px 15px;
+  float: left;
+  transition: .4s ease-in-out;
+  width: 100%;
+  position: relative;
+}
+/* line 149, ../sass/app.scss */
+.Recent-pro-box .visiter img {
+  max-height: 58px;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+/* line 159, ../sass/app.scss */
+.Recent-pro-box .visiter .name {
+  float: left;
+  font-weight: 600;
+  padding-top: 20px;
+}
+/* line 164, ../sass/app.scss */
+.Recent-pro-box .visiter .name a {
+  color: #4a4a4a;
+}
+/* line 170, ../sass/app.scss */
+.Recent-pro-box .recent-description {
+  background: #eeeeee;
+  border-bottom: 1px solid #d2d2d2;
+  padding: 15px 15px;
+  float: left;
+  transition: .4s ease-in-out;
+  width: 100%;
+  position: relative;
+}
+/* line 178, ../sass/app.scss */
+.Recent-pro-box .recent-description::before {
+  position: absolute;
+  top: -24px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  content: '';
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid #eee;
+}
+/* line 191, ../sass/app.scss */
+.Recent-pro-box .recent-description .product-name {
+  color: #4a4a4a;
+  margin-top: 0;
+  line-height: 1.5;
+  min-height: 50px;
+  font-weight: 600;
+}
+/* line 198, ../sass/app.scss */
+.Recent-pro-box .recent-description .product-name:hover {
+  color: #dec300;
+}
+/* line 201, ../sass/app.scss */
+.Recent-pro-box .recent-description .product-name a {
+  color: #4a4a4a;
+  display: block;
+}
+/* line 205, ../sass/app.scss */
+.Recent-pro-box .recent-description .product-name a:hover {
+  color: #dec300;
+}
+/* line 213, ../sass/app.scss */
+.Recent-pro-box .like-count {
+  margin: 0;
+}
+/* line 215, ../sass/app.scss */
+.Recent-pro-box .like-count i {
+  font-size: 22px;
+}
+
+/* line 222, ../sass/app.scss */
+.shops-box {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+}
+/* line 226, ../sass/app.scss */
+.shops-box .company-logo {
+  position: relative;
+  background: #FFF;
+  height: 320px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid transparent;
+}
+/* line 236, ../sass/app.scss */
+.shops-box .company-logo img {
+  max-width: 310px;
+}
+/* line 243, ../sass/app.scss */
+.shops-box .company-logo:hover {
+  border: 1px solid #dbdbdb;
+  border-bottom: 0;
+}
+/* line 252, ../sass/app.scss */
+.shops-box .heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+  color: #28acb6;
+  padding-top: 10px;
+  text-align: center;
+}
+/* line 264, ../sass/app.scss */
+.shops-box .heart i {
+  cursor: pointer;
+  font-size: 30px;
+  color: #28acb6;
+}
+
+/* line 274, ../sass/app.scss */
+a {
+  transition: .4s ease-in-out;
+}
+/* line 277, ../sass/app.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 282, ../sass/app.scss */
+.company-description {
+  background: #eeeeee;
+  padding: 15px 18px 17px;
+  float: left;
+  transition: .4s ease-in-out;
+  width: 100%;
+  position: relative;
+}
+/* line 289, ../sass/app.scss */
+.company-description::before {
+  position: absolute;
+  top: -24px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  content: '';
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid #eee;
+}
+/* line 302, ../sass/app.scss */
+.company-description .company-name {
+  font-family: "Open Sans", sans-serif;
+  color: #4a4a4a;
+  margin-top: 0;
+  font-weight: 600;
+}
+/* line 308, ../sass/app.scss */
+.company-description .company-name:hover {
+  color: #dec300;
+}
+/* line 311, ../sass/app.scss */
+.company-description .company-name a {
+  color: #4a4a4a;
+  display: block;
+}
+/* line 315, ../sass/app.scss */
+.company-description .company-name a:hover {
+  color: #dec300;
+}
+/* line 324, ../sass/app.scss */
+.company-description .star-review a {
+  display: inline-block;
+  padding: 1px 4.5px;
+  border-radius: 2px;
+  background: #c6c6c6;
+  transition: .4s ease-in-out;
+}
+/* line 330, ../sass/app.scss */
+.company-description .star-review a:hover {
+  background: #dec300;
+}
+/* line 334, ../sass/app.scss */
+.company-description .star-review a i {
+  color: #FFF;
+}
+/* line 341, ../sass/app.scss */
+.company-description .review-count {
+  font-family: "Open Sans", sans-serif;
+  color: #4a4a4a;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+/* line 350, ../sass/app.scss */
+.load-more {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background: #fff;
+  border-color: #d2d2d2;
+  color: #28acb6;
+  margin-bottom: 30px;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  padding: 14px;
+  float: left;
+}
+/* line 362, ../sass/app.scss */
+.load-more:hover {
+  border-color: #28acb6;
+  color: #fff;
+  background: #28acb6;
+}
+
+/* line 369, ../sass/app.scss */
+.post-img {
+  position: relative;
+  background: #FFF;
+  height: 320px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+}
+
+/* line 382, ../sass/app.scss */
+.recent-blog-box {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+}
+/* line 388, ../sass/app.scss */
+.recent-blog-box .heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border: 1px solid #d2d2d2;
+  border-radius: 3px;
+  color: #28acb6;
+  padding-top: 10px;
+  text-align: center;
+}
+/* line 401, ../sass/app.scss */
+.recent-blog-box .heart i {
+  cursor: pointer;
+  font-size: 30px;
+  color: #28acb6;
+}
+
+/* line 412, ../sass/app.scss */
+.post-description {
+  background: #eeeeee;
+  padding: 15px 18px 17px;
+  float: left;
+  transition: .4s ease-in-out;
+  width: 100%;
+  position: relative;
+}
+/* line 419, ../sass/app.scss */
+.post-description::before {
+  position: absolute;
+  top: -24px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  content: '';
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid #eee;
+}
+/* line 432, ../sass/app.scss */
+.post-description .post-title {
+  font-family: "Open Sans", sans-serif;
+  color: #4a4a4a;
+  margin-top: 0;
+  font-weight: 600;
+}
+/* line 438, ../sass/app.scss */
+.post-description .post-title:hover {
+  color: #dec300;
+}
+/* line 441, ../sass/app.scss */
+.post-description .post-title a {
+  color: #4a4a4a;
+  display: block;
+}
+/* line 445, ../sass/app.scss */
+.post-description .post-title a:hover {
+  color: #dec300;
+}
+
+/* line 455, ../sass/app.scss */
+.post-tag li {
+  border-right: 1px solid #28acb6;
+}
+/* line 458, ../sass/app.scss */
+.post-tag li a {
+  font-family: "Open Sans", sans-serif;
+  color: #28acb6;
+  font-size: 12px;
+  font-weight: 600;
+}
+/* line 464, ../sass/app.scss */
+.post-tag li a:hover {
+  color: #dec300;
+}
+/* line 470, ../sass/app.scss */
+.post-tag li:last-child {
+  border: 0;
+}
+
+/* line 478, ../sass/app.scss */
+.poster {
+  border-top: 1px solid #d2d2d2;
+  font-family: "Open Sans", sans-serif;
+  background: #eeeeee;
+  padding: 13px 15px;
+  float: left;
+  transition: .4s ease-in-out;
+  width: 100%;
+  position: relative;
+}
+/* line 488, ../sass/app.scss */
+.poster img {
+  max-height: 58px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 495, ../sass/app.scss */
+.poster .author {
+  float: left;
+  font-weight: 600;
+  padding-top: 2px;
+  margin-bottom: 20px;
+}
+/* line 501, ../sass/app.scss */
+.poster .author a {
+  color: #4a4a4a;
+}
+/* line 504, ../sass/app.scss */
+.poster .author a:hover {
+  color: #dec300;
+}
+/* line 511, ../sass/app.scss */
+.poster .label-blog {
+  display: block;
+  padding: 2px;
+  background: #9b9b9b;
+  width: 62px;
+  text-align: center;
+  border-radius: 4px;
+  color: #FFF;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+/* line 526, ../sass/app.scss */
+.trending-cate {
+  margin-bottom: 30px;
+}
+/* line 529, ../sass/app.scss */
+.trending-cate .load-more {
+  font-size: 14px;
+  padding: 10px 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+/* line 539, ../sass/app.scss */
+.select-style {
+  border: 0;
+  border-radius: 3px;
+  margin-right: 10px;
+  overflow: hidden;
+  background: #eeeeee url("../img/select-icon.png") no-repeat 90% 50%;
+}
+
+/* line 547, ../sass/app.scss */
+.select-style select {
+  text-transform: uppercase;
+  font: 500 14px "Open Sans", sans-serif;
+  padding: 14px 44px 14px 7px;
+  width: 110%;
+  color: #777;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+/* line 560, ../sass/app.scss */
+.select-style select:focus {
+  outline: none;
+}
+
+/* line 565, ../sass/app.scss */
+.btn-signup {
+  color: #28acb6 !important;
+  border-left: 1px solid #777;
+}
+
+/* line 570, ../sass/app.scss */
+.jwplayer .jwdisplayIcon div {
+  background-image: url("../img/icon-play.png") !important;
+}
+
+@media (max-width: 678px) {
+  /* line 575, ../sass/app.scss */
+  .select-style {
+    margin: 10px;
+  }
+
+  /* line 581, ../sass/app.scss */
+  .Search .email-btn {
+    right: 0px;
+  }
+
+  /* line 585, ../sass/app.scss */
+  .btn-signup {
+    border: 0;
+  }
+}
