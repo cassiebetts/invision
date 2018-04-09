@@ -1,0 +1,119 @@
+@media (max-width: 678px) {
+  /* line 3, ../sass/screen.scss */
+  .select-style {
+    margin: 10px;
+  }
+
+  /* line 9, ../sass/screen.scss */
+  .Search .email-btn {
+    right: 0px;
+  }
+
+  /* line 13, ../sass/screen.scss */
+  .btn-signup {
+    border: 0;
+  }
+}
+@media (max-width: 768px) {
+  /* line 20, ../sass/screen.scss */
+  .description-box {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 440px) {
+  /* line 28, ../sass/screen.scss */
+  .gallery-box .gallery-slider .pro-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+  }
+
+  /* line 36, ../sass/screen.scss */
+  .video-box .youtube-player img {
+    display: inline-block;
+    min-height: 200px;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 46, ../sass/screen.scss */
+  .video-box .youtube-player {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 50, ../sass/screen.scss */
+  .navbar-header {
+    float: none;
+  }
+
+  /* line 53, ../sass/screen.scss */
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  /* line 56, ../sass/screen.scss */
+  .navbar-toggle {
+    display: block;
+  }
+
+  /* line 59, ../sass/screen.scss */
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* line 63, ../sass/screen.scss */
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  /* line 67, ../sass/screen.scss */
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  /* line 70, ../sass/screen.scss */
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  /* line 74, ../sass/screen.scss */
+  .navbar-nav > li {
+    float: none;
+  }
+
+  /* line 77, ../sass/screen.scss */
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* line 81, ../sass/screen.scss */
+  .collapse.in {
+    display: block !important;
+  }
+
+  /* line 84, ../sass/screen.scss */
+  .select-style {
+    margin: 0;
+  }
+
+  /* line 88, ../sass/screen.scss */
+  .select-style {
+    margin-bottom: 10px !important;
+  }
+
+  /* line 93, ../sass/screen.scss */
+  .Search-inner-page {
+    margin: 0;
+  }
+
+  /* line 97, ../sass/screen.scss */
+  .Search-inner-page input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
